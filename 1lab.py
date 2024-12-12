@@ -15,7 +15,7 @@ def pol(a, b, c, d):
         x2 = roots(-q / 2 - sqrt((q / 2) ** 2 + (p / 3) ** 3))
         for r1 in x1:
             for r2 in x2:
-                if abs((r1 * r2) + p / 3) <= 0.0001:
+                if abs((r1 * r2) + p / 3) <= 0.00000000001:
                     x = r1 + r2 - b / (3 * a)
                     print(x, abs((r1 * r2) + p / 3), 'good')
                 else:
