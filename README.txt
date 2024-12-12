@@ -1,1 +1,1 @@
-s
+laba po githuby
